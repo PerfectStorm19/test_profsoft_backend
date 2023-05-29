@@ -5,7 +5,8 @@
 //# Подобного рода задачи удобнее всего реализовать через структуру данных стек.
 
 <?php
-function isBracketsCorrect(string $someString) {
+function isBracketsCorrect(string $someString): bool
+{
 
     // создаем пустой массив для хранения открывающих скобок
     $stack = [];
